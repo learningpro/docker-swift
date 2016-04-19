@@ -1,9 +1,9 @@
-FROM ubuntu:14.04
-MAINTAINER Haris Amin <aminharis7@gmail.com>
+FROM ubuntu:15.10
+MAINTAINER learningpro Haris Amin <aminharis7@gmail.com>
 
 ENV SWIFT_BRANCH development
 ENV SWIFT_VERSION DEVELOPMENT-SNAPSHOT-2016-04-12-a
-ENV SWIFT_PLATFORM ubuntu14.04
+ENV SWIFT_PLATFORM ubuntu15.10
 
 # Install related packages
 RUN apt-get update && \
